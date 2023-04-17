@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family:sans-serif ;
+}
+/*header top*/
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-left {
+    display: flex;
+    align-items: center;
+}
+
+/*header-lover*/
+.header-lower {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item:not(:last-child) {
+margin-right: 40px;
+}
+
+/*offer*/
+
+.do-tittle {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.offer-content-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-offer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 350px;
+}
+
+/*services*/
+
+.services-list-one {
+    display: flex;
+}
+
+.services-list-do {
+    display: flex;
+}
+.services-item {
+    flex: 1 1 50%;
+}
+
+.paragraph-services {
+    margin-top: 30px;
+}
+
+.advantages-list {
+    display: flex;
+}
+
+.advantages-list-do {
+    display: flex;
+}
+
+/*place*/
+.accommodation-list {
+display: flex;
+}
+
+.accommodation-list-do {
+display: flex;
+}
+
+.accommodation-list-three {
+display: flex;
+}
+
+.accommodation-hotel-list {
+    flex: 1 1 33.33%;
+}
+
+.accommodation-list:not(:last-child) {
+    margin-right: 10px;
+}
+

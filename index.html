@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lagoona сеть отелей</title>
+    <link rel="stylesheet" href="static/style/narmalize.css">
+    <link rel="stylesheet" href="static/style/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <div class="header-top">
                 <div class="header-top-left">
                     <a href="logo">
@@ -81,20 +83,21 @@
 
     <main>
         <section class="offer">
-            <div class="container">
+            <div class="container-offer">
                 <h2 class="do-tittle">Спецпредложение</h2>
                 <div class="offer-content-flex">
                     <div class="offer-special-block">
-                        <article class="offer-maldivs-flex">
+                        <article class="offer-flex maldivs">
                             <h3 class="offer-maldivs-title"> Мальдивские острова</h3>
                             <p class="offer-price">от 55 000&#8372</p>
                         </article>
-                        <article class="offer-crete-flex">
+                        <article class="offer-flex crete">
                             <h3 class="offer-do-title">Горящий тур на остров Крит</h3>
                             <p class="offer-price">от 30 000&#8372</p>
                         </article>
                     </div>
                     <div class="offer-special-block">
+
                         <article class="offer-special-block-right">
                             <h3 class="special-right-title">Номера категории люкс</h3>
                             <p class="offer-price">от 5 000&#8372</p>
@@ -105,22 +108,25 @@
 
         </section>
         <section class="info">
-            <div class="container"></div>
-            <h2 class="do-tittle">О нас</h2>
-            <p class="info-text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечёт
-                за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
-                Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
-                представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным
-                потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения
-                существенных финансовых
-                и административных условий.</p>
+            <div class="container">
+                <h2 class="do-tittle">О нас</h2>
+                <p class="info-text">Идейные соображения высшего порядка, а также сложившаяся структура организации
+                    влечёт
+                    за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным
+                    потребностям.
+                    Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
+                    представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным
+                    потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения
+                    существенных финансовых
+                    и административных условий.</p>
+            </div>
         </section>
 
         <section class="services">
             <div class="container">
                 <h2 class="do-tittle">Услуги</h2>
                 <div class="container-services">
-                    <ul class="services-list">
+                    <ul class="services-list-one">
                         <li class="services-item">
                             <div class="services-item">
                                 <h3> <a class="more-information" href="">Эксклюзивное обслуживание</a></h3>
@@ -135,6 +141,8 @@
                                     работы по формированию позиции</p>
                             </div>
                         </li>
+                    </ul>
+                    <ul class="services-list-do">
                         <li class="services-item">
                             <div class="services-item">
                                 <h3> <a class="more-information" href="">Аренда банкетных залов</a></h3>
@@ -358,6 +366,9 @@
                         <p class="advantages-paragraph">Идейные соображения высшего порядка, а&nbsp;также постоянный
                             количественный рост</p>
                     </li>
+                </ul>
+                <ul class="advantages-list-do">
+
                     <li class="advantages-item">
                         <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_370726_530)">
@@ -503,6 +514,7 @@
                             количественный рост</p>
                     </li>
                 </ul>
+
             </div>
         </section>
 
@@ -575,7 +587,8 @@
                             </div>
                         </div>
                     </li>
-
+                </ul>
+                <ul class="accommodation-list-do">
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
                             <img src="static/image/29-1.png" alt="Hotel">
@@ -641,6 +654,8 @@
                             </div>
                         </div>
                     </li>
+                </ul>
+                <ul class="accommodation-list-three">
 
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
@@ -663,7 +678,7 @@
                             </div>
                         </div>
                     </li>
-
+    
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
                             <img src="static/image/27.png" alt="Hotel">
@@ -686,9 +701,13 @@
                         </div>
                     </li>
                     <li class="accommodation-hotel-list-more">
-                        <a class="accommodation-list-more" href="">Посмотреть еще</a>
+                        <img src="static/image/41.png" alt="" width="390px" height="350px">
+                        <div class="button-more">
+                            <a class="accommodation-list-more" href="">Посмотреть еще</a>
+                        </div>
                     </li>
                 </ul>
+                
             </div>
         </section>
     </main>
