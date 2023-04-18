@@ -1,5 +1,11 @@
 *{
     box-sizing: border-box;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -40,6 +46,10 @@ html {
     align-items: center;
 }
 
+.header-number-phone {
+    margin-left: 50px;
+}
+
 /*header-lover*/
 .header-lower {
     display: flex;
@@ -57,8 +67,12 @@ margin-right: 40px;
 
 /*offer*/
 
+.offer {
+    margin-top: 60px;
+}
+
 .do-tittle {
-    margin-top: 50px;
+   margin-top: 0px;
     margin-bottom: 50px;
 }
 
@@ -76,7 +90,16 @@ margin-right: 40px;
     padding-right: 350px;
 }
 
+/*info*/
+.info {
+    margin-top: 50px;
+}
+
 /*services*/
+
+.services {
+    margin-top: 50px;
+}
 
 .services-list-one {
     display: flex;
@@ -101,7 +124,15 @@ margin-right: 40px;
     display: flex;
 }
 
+.advantages {
+    margin-top: 50px;
+}
+
 /*place*/
+.accommodation {
+    margin-top: 50px;
+}
+
 .accommodation-list {
 display: flex;
 }
