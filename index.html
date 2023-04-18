@@ -21,7 +21,8 @@
                     <a href="logo">
                         <img src="static/image/logo.png" alt="Laguna" class="logo-img">
                     </a>
-                    <span class="header-number-phone"> <a href="tel:+74953225448">+7 495 322-54-48 </a></span>
+                    <span class="header-number-phone"> <a class="header-number-phone-link" href="tel:+74953225448">+7
+                            495 322-54-48 </a></span>
                 </div>
                 <div class="header-top-right">
                     <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +30,7 @@
                             fill="#CC9933" />
                     </svg>
                     <span class="header-top-reg">
-                        <a href="">Личный кабинет</a>
+                        <a class="header-top-reg-link" href="">Личный кабинет</a>
                     </span>
                 </div>
             </div>
@@ -38,32 +39,32 @@
                     <nav class="nav">
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <a href="">
+                                <a class="nav-link" href="">
                                     О нас
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="">
+                                <a class="nav-link" href="">
                                     Услуги
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="">
+                                <a class="nav-link" href="">
                                     Преимущества
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="">
+                                <a class="nav-link" href="">
                                     Размещение
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="">
+                                <a class="nav-link" href="">
                                     Блог
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="">
+                                <a class="nav-link" href="">
                                     Контакты
                                 </a>
                             </li>
@@ -72,12 +73,12 @@
                 </div>
 
                 <div class="header-lower-right">
-                    <a href=""><button class="header-lower-btn">
-                            Хочу в тур
-                        </button></a>
-                    <a href=""> <button class="header-lower-btn">
-                            Обратный звонок
-                        </button> </a>
+                    <a class="nav-link-btn" href="">
+                        Хочу в тур
+                    </a>
+                    <a class="nav-link-btn" href="">
+                        Обратный звонок
+                    </a>
                 </div>
             </div>
         </div>
@@ -92,10 +93,30 @@
                         <article class="offer-flex maldivs">
                             <h3 class="offer-maldivs-title"> Мальдивские острова</h3>
                             <p class="offer-price">от 55 000&#8372</p>
+                            <p class="offer-btn-more">
+                                <a class="offer-btn-link" href="">
+                                    Подробней  </a>
+                                    <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#F0BF5F"
+                                            stroke-width="2" />
+                                    </svg>
+                            </p>
                         </article>
                         <article class="offer-flex crete">
                             <h3 class="offer-do-title">Горящий тур на остров Крит</h3>
                             <p class="offer-price">от 30 000&#8372</p>
+                            <p class="offer-btn-more">
+                                <a class="offer-btn-link" href="">
+                                    Подробней
+                                    <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#F0BF5F"
+                                            stroke-width="2" />
+                                    </svg>
+
+                                </a>
+                            </p>
                         </article>
                     </div>
                     <div class="offer-special-block">
@@ -103,6 +124,17 @@
                         <article class="offer-special-block-right">
                             <h3 class="special-right-title">Номера категории люкс</h3>
                             <p class="offer-price">от 5 000&#8372</p>
+                            <p class="offer-btn-more">
+                                <a class="offer-btn-link" href="">
+                                    Подробней
+                                    <svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#F0BF5F"
+                                            stroke-width="2" />
+                                    </svg>
+
+                                </a>
+                            </p>
                         </article>
                     </div>
                 </div>
@@ -130,26 +162,38 @@
                 <div class="container-services">
                     <ul class="services-list-one">
                         <li class="services-item">
-                                <h3> <a class="more-information" href="">Эксклюзивное обслуживание</a></h3>
+                            <img src="static/image/10.png" alt="" width="543px" height="165px">
+                            <div class="services-card">
+                                <a class="more-information" href=""><h3>Эксклюзивное обслуживание</h3></a>
                                 <p class="paragraph-services">Равным образом постоянный количественный рост и сфера
                                     нашей активности</p>
+                            </div>
                         </li>
-                        <li class="services-item">
-                                <h3> <a class="more-information" href="">Сауны, бассейны,бани,фитнес-залы</a></h3>
+                        <li class="services-item"> 
+                            <img src="static/image/15.png" alt="" width="543px" height="165px">
+                            <div class="services-card">
+                                <a class="more-information" href=""><h3>Сауны, бассейны, бани, фитнес-залы</h3></a>
                                 <p class="paragraph-services">Не следует, однако забывать, что начало повседневной
                                     работы по формированию позиции</p>
+                            </div>
                         </li>
                     </ul>
                     <ul class="services-list-do">
                         <li class="services-item">
-                                <h3> <a class="more-information" href="">Аренда банкетных залов</a></h3>
+                            <img src="static/image/12.png" alt="" width="543px" height="165px">
+                            <div class="services-card">
+                                <a class="more-information" href=""><h3>Аренда банкетных залов</h3></a>
                                 <p class="paragraph-services">Значимость этих проблем настолько очевидна, что дальнейшее
                                     развитие различных форм</p>
+                            </div>
                         </li>
                         <li class="services-item">
-                                <h3> <a class="more-information" href="">Охраняемые автомобильные стоянки</a></h3>
+                            <img src="static/image/carlo-d-agnolo-aFxSh_l4fbY-unsplash.png" alt="" width="543px" height="165px">
+                            <div class="services-card">
+                                <a class="more-information" href=""><h3>Охраняемые автомобильные стоянки</h3></a>
                                 <p class="paragraph-services">Не следует, однако забывать, что начало повседневной
                                     работы по формированию позиции</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -518,7 +562,7 @@
                 <ul class="accommodation-list">
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
-                            <img src="static/image/23.png" alt="Hotel">
+                            <img src="static/image/23.png" alt="Hotel" width="100%">
                             <div class="accommodation-hotel-price">
                                 <p class="accommodation-text-price">
                                     <span class="accommodation-text-one">от</span>
@@ -534,13 +578,16 @@
                                 </div>
                                 <p class="accommodation-lagoona">Lagoona española</p>
                                 <p class="accommodation-place-hotel">Барселона,Испания</p>
+                                <a class="nav-link-btn" href="">
+                                    Номера
+                                </a>
                             </div>
                         </div>
                     </li>
 
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
-                            <img src="static/image/24.png" alt="Hotel">
+                            <img src="static/image/24.png" alt="Hotel" width="100%">
                             <div class="accommodation-hotel-price">
                                 <p class="accommodation-text-price">
                                     <span class="accommodation-text-one">от</span>
@@ -556,13 +603,16 @@
                                 </div>
                                 <p class="accommodation-lagoona">Lagoona española</p>
                                 <p class="accommodation-place-hotel">Барселона,Испания</p>
+                                <a class="nav-link-btn" href="">
+                                    Номера
+                                </a>
                             </div>
                         </div>
                     </li>
 
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
-                            <img src="static/image/26.png" alt="Hotel">
+                            <img src="static/image/26.png" alt="Hotel" width="100%">
                             <div class="accommodation-hotel-price">
                                 <p class="accommodation-text-price">
                                     <span class="accommodation-text-one">от</span>
@@ -578,6 +628,9 @@
                                 </div>
                                 <p class="accommodation-lagoona">Lagoona española</p>
                                 <p class="accommodation-place-hotel">Барселона,Испания</p>
+                                <a class="nav-link-btn" href="">
+                                    Номера
+                                </a>
                             </div>
                         </div>
                     </li>
@@ -585,7 +638,7 @@
                 <ul class="accommodation-list-do">
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
-                            <img src="static/image/29-1.png" alt="Hotel">
+                            <img src="static/image/29-1.png" alt="Hotel" width="100%">
                             <div class="accommodation-hotel-price">
                                 <p class="accommodation-text-price">
                                     <span class="accommodation-text-one">от</span>
@@ -601,13 +654,16 @@
                                 </div>
                                 <p class="accommodation-lagoona">Lagoona española</p>
                                 <p class="accommodation-place-hotel">Барселона,Испания</p>
+                                <a class="nav-link-btn" href="">
+                                    Номера
+                                </a>
                             </div>
                         </div>
                     </li>
 
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
-                            <img src="static/image/23.png" alt="Hotel">
+                            <img src="static/image/23.png" alt="Hotel" width="100%">
                             <div class="accommodation-hotel-price">
                                 <p class="accommodation-text-price">
                                     <span class="accommodation-text-one">от</span>
@@ -623,13 +679,16 @@
                                 </div>
                                 <p class="accommodation-lagoona">Lagoona española</p>
                                 <p class="accommodation-place-hotel">Барселона,Испания</p>
+                                <a class="nav-link-btn" href="">
+                                    Номера
+                                </a>
                             </div>
                         </div>
                     </li>
 
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
-                            <img src="static/image/30.png" alt="Hotel">
+                            <img src="static/image/30.png" alt="Hotel" width="100%">
                             <div class="accommodation-hotel-price">
                                 <p class="accommodation-text-price">
                                     <span class="accommodation-text-one">от</span>
@@ -645,6 +704,9 @@
                                 </div>
                                 <p class="accommodation-lagoona">Lagoona española</p>
                                 <p class="accommodation-place-hotel">Барселона,Испания</p>
+                                <a class="nav-link-btn" href="">
+                                    Номера
+                                </a>
                             </div>
                         </div>
                     </li>
@@ -653,7 +715,7 @@
 
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
-                            <img src="static/image/31.png" alt="Hotel">
+                            <img src="static/image/31.png" alt="Hotel" width="100%">
                             <div class="accommodation-hotel-price">
                                 <p class="accommodation-text-price">
                                     <span class="accommodation-text-one">от</span>
@@ -669,13 +731,16 @@
                                 </div>
                                 <p class="accommodation-lagoona">Lagoona española</p>
                                 <p class="accommodation-place-hotel">Барселона,Испания</p>
+                                <a class="nav-link-btn" href="">
+                                    Номера
+                                </a>
                             </div>
                         </div>
                     </li>
 
                     <li class="accommodation-hotel-list">
                         <div class="hotel-box">
-                            <img src="static/image/27.png" alt="Hotel">
+                            <img src="static/image/27.png" alt="Hotel" width="100%">
                             <div class="accommodation-hotel-price">
                                 <p class="accommodation-text-price">
                                     <span class="accommodation-text-one">от</span>
@@ -691,6 +756,9 @@
                                 </div>
                                 <p class="accommodation-lagoona">Lagoona española</p>
                                 <p class="accommodation-place-hotel">Барселона,Испания</p>
+                                <a class="nav-link-btn" href="">
+                                    Номера
+                                </a>
                             </div>
                         </div>
                     </li>
