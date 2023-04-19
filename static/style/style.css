@@ -359,3 +359,146 @@ display: flex;
     font-size: 20px;
 
 }
+
+/*want-tur*/
+.want-tur {
+    margin-top: 50px;
+}
+
+.btn-search {
+    border: 1px solid #CC9933;
+    font-size: 16px;
+    line-height: 1;
+    color: #CC9933 ;
+    background-color:white ;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+}
+
+.want-tur-flex {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 32px 28px 20px 28px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.header-text-form {
+    font-size: 12px;
+}
+
+.form-main-text {
+    font-size: 16px;
+    border: none;
+    border-bottom: solid 0.5px;
+    border-color: #E9E9E9;
+}
+
+/*contact*/
+.contact-container {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact-container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container-left {
+    width: 500px;
+}
+
+.contact-adress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    border-bottom: 0.5px solid #E9E9E9;
+}
+
+.contact-container-left-header {
+    padding-right: 47px;
+}
+
+.btn-contact {
+    border: 1px solid #CC9933;
+    font-size: 16px;
+    line-height: 1;
+    color: #CC9933 ;
+    background-color:white ;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 35px 55px 35px 55px;
+}
+
+.contact-link {
+    color: #CC9933;
+}
+
+/*footer*/
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    border-radius: 15px;
+}
+
+.footer-left-left {
+    margin-top: 45px;
+    color: white;
+}
+
+.footer-left {
+    margin-top: 45px;
+    color: white;
+}
+
+.footer-item {
+    margin-bottom: 38px;
+}
+
+.footer-item-do {
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: end;
+}
+
+.footer-social-icon {
+    display: flex;
+    flex-flow: column;
+}
+
+.footer-social-icon {
+    padding-top: 35px;
+}
+
+.icon-position {
+    padding-top: 15px ;
+}
