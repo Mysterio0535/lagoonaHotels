@@ -136,14 +136,35 @@ margin-right: 40px;
     font-size: 40px;
     color: #333;
 }
+.foto-container {
+    position: absolute;
+    padding-left: 45px;
+    max-width: 350px;
+}
+
+.offer-special-block-right{
+    margin-left: 42px;
+}
 
 .offer-maldivs-title {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
     margin-bottom: 15px;
+    color: white;
+}
+
+.offer-flex.crete{
+color: white;
+margin-top: 42px;
+font-size: 30px;
+}
+
+.offer-special-block-right {
+    font-size: 30px;
+    color: white;
+
 }
 .offer-do-title {
-    font-size: 40px;
     line-height: 40px;
     margin-bottom: 15px;
 }
@@ -155,6 +176,7 @@ margin-right: 40px;
 .offer-price {
     font-size: 20px;
     line-height: 1;
+    color: white;
     
 }
 .offer-btn-more {
@@ -162,7 +184,8 @@ margin-right: 40px;
 }
 
 .offer-btn-link {
-color: #CC9933;
+color: #F0BF5F;
+padding-top: 47px;
 }
 
 .offer-content-flex {
@@ -202,6 +225,7 @@ color: #CC9933;
 
 .services-card {
     padding-left: 45px;
+    padding-right: 30px;
    padding-bottom: 35px;
     border: 1px;
     border-radius: 0 0 15px 15px;
@@ -318,9 +342,20 @@ display: flex;
 
 .accommodation-hotel-list {
     flex: 1 1 33.33%;
+
 }
 
 .accommodation-list:not(:last-child) {
     margin-right: 10px;
 }
 
+.button-more {
+    position: absolute;
+    color: white;
+}
+
+.accommodation-list-more {
+    color: white;
+    font-size: 20px;
+
+}
