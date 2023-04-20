@@ -126,8 +126,50 @@ margin-right: 40px;
 
 /*offer*/
 
+
 .offer {
     margin-top: 70px;
+}
+
+.offer-flex {
+     width: 400px;
+    height: 258px; ;
+}
+
+  .photo-maldivs {
+    background: url('../image/Rectangle\ 14.png');
+     width: 400px; 
+    height: 258px;
+    border-radius: 15px;
+}
+
+.photo-create {
+    background: url('../image/Rectangle\ 15.png');
+     width: 400px; 
+    height: 258px;
+    border-radius: 15px;
+} 
+
+.offer-special-block-right {
+     width: 400px;
+    height: 550px; 
+    margin-left: 42px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.photo-lux {
+    background: url('../image/33\ 1.jpg') no-repeat;
+    width: 400px;
+    height: 540px; 
+    border-radius: 15px;
+
+} 
+
+.text-photo {
+    margin-left: 20px;
 }
 
 .do-tittle {
@@ -138,13 +180,8 @@ margin-right: 40px;
 }
 .foto-container {
     position: absolute;
-    padding-left: 45px;
-    max-width: 350px;
 }
 
-.offer-special-block-right{
-    margin-left: 42px;
-}
 
 .offer-maldivs-title {
     font-size: 30px;
@@ -155,15 +192,11 @@ margin-right: 40px;
 
 .offer-flex.crete{
 color: white;
-margin-top: 42px;
+margin-top: 30px;
 font-size: 30px;
 }
 
-.offer-special-block-right {
-    font-size: 30px;
-    color: white;
 
-}
 .offer-do-title {
     line-height: 40px;
     margin-bottom: 15px;
@@ -190,7 +223,6 @@ padding-top: 47px;
 
 .offer-content-flex {
     display: flex;
-    justify-content: space-between;
 }
 
 .container-offer {
@@ -198,7 +230,6 @@ padding-top: 47px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
-    padding-right: 350px;
 }
 
 /*info*/
@@ -288,12 +319,15 @@ padding-top: 47px;
 
 .hotel-box {
     flex-direction: column;
+    flex: 1 1 33.33%;
     border: 1px  #e4e4e4;
     border-radius:15px; 
     background-color: white;
     margin: 0 11px 11px 0;
+    max-width: 380px;
     justify-content: space-between; 
 }
+
 
 .accommodation-hotel-price {
     padding: 30px;
@@ -350,14 +384,21 @@ display: flex;
 }
 
 .button-more {
-    position: absolute;
     color: white;
+    background: url('../image/41.png') no-repeat ;
+    width: 390px ;
+    height: 520px ;
 }
 
 .accommodation-list-more {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 400; 
 
+}
+
+.accommodation-hotel-list-more {
+    background-image:S url(/static/image/41.png);
 }
 
 /*want-tur*/
@@ -398,6 +439,10 @@ display: flex;
     border: none;
     border-bottom: solid 0.5px;
     border-color: #E9E9E9;
+}
+
+#place#side {
+    border: none;
 }
 
 /*contact*/
