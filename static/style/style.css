@@ -13,15 +13,16 @@ body {
 
 .container {
     max-width: 1200px;
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px; */
 }
 
 a {
     text-decoration: none;
 }
+
 
 ul {
     list-style: none;
@@ -59,6 +60,10 @@ html {
 .header-number-phone-link {
     color: #666;
 }
+
+.header-number-phone-link:hover {
+    color: #CC9933;
+}
 .header-top-right {
     padding-top: 20px;
 }
@@ -95,6 +100,9 @@ html {
 .nav-link {
     color: #666;
 }
+.nav-link:hover {
+    border-bottom: 2px solid #CC9933 ;
+}
 
 .nav-item:not(:last-child) {
 margin-right: 40px;
@@ -104,6 +112,7 @@ margin-right: 40px;
     display: flex;
     align-items: center;
 }
+
 
 .nav-link-btn {
     border: 1px solid #CC9933;
@@ -118,10 +127,19 @@ margin-right: 40px;
     text-transform: uppercase;
     display: inline-block;
     font-weight: 400;
+    transition: 0.5s;
 }
 
+.nav-link-btn:hover {
+    box-shadow: 0 0 5px block;
+    background-color: #CC9933;
+    color: white;
+}
 
-
+.header-top-reg-link:hover {
+    box-shadow: 0 0 1px block;
+    outline: 1px solid #CC9933 ;
+}
 
 
 /*offer*/
@@ -133,7 +151,8 @@ margin-right: 40px;
 
 .offer-flex {
      width: 400px;
-    height: 258px; ;
+    height: 258px;
+    position: relative;
 }
 
   .photo-maldivs {
@@ -141,6 +160,19 @@ margin-right: 40px;
      width: 400px; 
     height: 258px;
     border-radius: 15px;
+    /* position: relative; */
+}
+
+.offer-btn-link {
+color: #F0BF5F;
+}
+
+.offer-btn-link::before{
+    content: '';
+    display: block;
+    width: 400px;
+    height: 258px;
+    position: absolute;
 }
 
 .photo-create {
@@ -216,10 +248,6 @@ font-size: 30px;
     font-size: 16px;
 }
 
-.offer-btn-link {
-color: #F0BF5F;
-padding-top: 47px;
-}
 
 .offer-content-flex {
     display: flex;
@@ -245,23 +273,33 @@ padding-top: 47px;
 /*services*/
 
 .services-item {
-    flex: 1 1 25%;
     display: flex;
     flex-direction: column;
     border: 1px  #e4e4e4;
-    border-radius: 5px; padding: 60px 30px;
-    padding-bottom: 0;
+    border-radius: 5px; 
     padding-top: 24px;
 }
+
 
 .services-card {
     padding-left: 45px;
     padding-right: 30px;
-   padding-bottom: 35px;
+    padding-bottom: 35px;
     border: 1px;
     border-radius: 0 0 15px 15px;
     background-color: white;
+    transition: 1s;
 }
+
+.services-card:hover {
+    background-color: #CC9933;
+    color: white;
+}
+.services-card:hover .more-information {
+    color: white;
+}
+
+
 .more-information {
     color: #CC9933;
     font-size: 20px;
@@ -271,44 +309,22 @@ padding-top: 47px;
     margin-top: 50px;
 }
 
-.services-list-one {
-    display: flex;
-}
-
-.services-list-do {
-    display: flex;
-}
-.services-item {
-    flex: 1 1 50%;
-}
-
 .paragraph-services {
    font-size: 16px;
 }
 
 /*advantages*/
 .advantages-item {
-    flex: 1 1 25%;
-    display: flex;
-    flex-direction: column;
     border: 1px  #e4e4e4;
     border-radius: 15px; 
     padding: 42px 42px 32px 42px;
     background-color: white;
-    margin: 11px;
+    margin-bottom: 24px;
 }
 
 .advantages-paragraph {
     font-family: 16px;
     line-height: 32px;
-}
-
-.advantages-list {
-    display: flex;
-}
-
-.advantages-list-do {
-    display: flex;
 }
 
 .advantages {
@@ -318,14 +334,10 @@ padding-top: 47px;
 /*place*/
 
 .hotel-box {
-    flex-direction: column;
-    flex: 1 1 33.33%;
     border: 1px  #e4e4e4;
     border-radius:15px; 
     background-color: white;
-    margin: 0 11px 11px 0;
-    max-width: 380px;
-    justify-content: space-between; 
+    margin-bottom: 22px;
 }
 
 
@@ -361,44 +373,33 @@ padding-top: 47px;
     margin-top: 50px;
 }
 
-.accommodation-list {
-display: flex;
-justify-content: space-between;
-}
-
-.accommodation-list-do {
-display: flex;
-}
-
-.accommodation-list-three {
-display: flex;
-}
-
-.accommodation-hotel-list {
-    flex: 1 1 33.33%;
-
-}
-
-.accommodation-list:not(:last-child) {
-    margin-right: 10px;
-}
-
 .button-more {
     color: white;
-    background: url('../image/41.png') no-repeat ;
-    width: 390px ;
-    height: 520px ;
+    background: url('../image/41.png') 0 0 / 100% 100%  ;
+    height: 480px ;
+}
+
+.accommodation-link-more{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+.accommodation-list-more:hover {
+color: #CC9933;
 }
 
 .accommodation-list-more {
     color: white;
     font-size: 30px;
     font-weight: 400; 
+    position: relative;
 
 }
 
 .accommodation-hotel-list-more {
-    background-image:S url(/static/image/41.png);
+    position: relative;
+    background-image:S url(/static/image/41.png) 0 0 / 100% 100%;
+    background-repeat: no-repeat;
 }
 
 /*want-tur*/
@@ -419,6 +420,13 @@ display: flex;
     display: inline-block;
     font-weight: 400;
     text-align: center;
+    transition: 0.5s;
+}
+
+.btn-search:hover {
+    box-shadow: 0 0 5px block;
+    background-color: #CC9933;
+    color: white;
 }
 
 .want-tur-flex {
@@ -455,14 +463,6 @@ display: flex;
     margin-top: 50px;
 }
 
-.contact-container-flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-.contact-container-left {
-    width: 500px;
-}
 
 .contact-adress {
     display: flex;
@@ -473,9 +473,6 @@ display: flex;
     border-bottom: 0.5px solid #E9E9E9;
 }
 
-.contact-container-left-header {
-    padding-right: 47px;
-}
 
 .btn-contact {
     border: 1px solid #CC9933;
@@ -493,7 +490,15 @@ display: flex;
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 35px 55px 35px 55px;
+    transition: 0.5s;
 }
+
+.btn-contact:hover {
+    box-shadow: 0 0 5px block;
+    background-color: #CC9933;
+    color: white;
+}
+
 
 .contact-link {
     color: #CC9933;
