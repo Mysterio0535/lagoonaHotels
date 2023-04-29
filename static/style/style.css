@@ -455,6 +455,7 @@ color: #CC9933;
 
 /*contact*/
 .contact-container {
+    padding: 25px ;
     background-color: white;
     border-radius: 15px;
 }
